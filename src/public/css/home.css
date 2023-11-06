@@ -1,0 +1,123 @@
+.home-section{
+    display: grid;
+    grid-template-columns: 1200px;
+    justify-content: space-around;
+
+    margin: 30px 0;
+}
+
+.photos{
+    display: grid;
+    grid-area: 
+    'photo1 photo2 photo3'
+    'photo4 photo5'
+    'photo6'
+    'photo7 photo8 photo9'
+    'photo10 photo11'
+    'photo12'
+    ;
+}
+
+.photo1, .photo2, .photo3, .photo7, .photo8, .photo9{
+    width: 400px;
+    height: 640px;
+}
+
+.photo4, .photo5, .photo10, .photo11{
+    width: 601px;
+    height: 640px;
+}
+
+.photo6, .photo12{
+    width: 1200px;
+    height: 640px;
+}
+
+.section1, .section2, .section3{
+    display: flex;
+    align-items: center;
+}
+
+.photo1{
+    grid-area: photo1;
+    background-image: url(/assets/img/cat01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.photo2{
+    grid-area: photo2;
+    background-image: url(/assets/img/cat02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.photo3{
+    grid-area: photo3;
+    background-image: url(/assets/img/cat05.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.photo4{
+    grid-area: photo4;
+    background-image: url(/assets/img/cat11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.photo5{
+    grid-area: photo5;
+    background-image: url(/assets/img/cat08.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.photo6{
+    grid-area: photo6;
+    background-image: url(/assets/img/cat04.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.photo7{
+    grid-area: photo7;
+    background-image: url(/assets/img/cat12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.photo8{
+    grid-area: photo8;
+    background-image: url(/assets/img/cat09.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.photo9{
+    grid-area: photo9;
+    background-image: url(/assets/img/cat06.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.photo10{
+    grid-area: photo10;
+    background-image: url(/assets/img/cat03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.photo11{
+    grid-area: photo11;
+    background-image: url(/assets/img/cat13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.photo12{
+    grid-area: photo12;
+    background-image: url(/assets/img/cat07.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

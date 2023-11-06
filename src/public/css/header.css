@@ -1,0 +1,32 @@
+nav{
+    background-color: #eb6440;
+}
+
+nav .menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 32px;
+}
+
+nav .menu img{
+    height: 80px;
+}
+
+.content-navbar{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 32px;
+}
+
+.content-navbar li a{
+    font-size: 20px;
+    color: #000;
+    font-weight: 700;
+}
+
+.content-navbar li a:hover{
+    color: #fff;
+}
